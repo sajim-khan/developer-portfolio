@@ -98,6 +98,7 @@ main {
   max-width: 1100px;
   margin: 40px 140px;
 }
+
 /* about section styles */
 .about {
   margin-top: 120px;
@@ -106,7 +107,7 @@ main {
   padding: 100px 120px;
   text-align: center;
 
-  /* margin-bottom:20px; */
+  /* start margin-bottom:20px; */
 }
 
 .section-title-about{
@@ -141,7 +142,7 @@ main {
   
 }
 
-/* what i do styles */
+/* start what i do styles */
 
 .section-titles {
   margin-top:120px;
@@ -174,7 +175,8 @@ main {
   color: #757575;
 }
 
-/* resume styles */
+
+/* Start resume styles */
 .section-title-resume{
   text-align: center;
   margin-bottom:80px;
@@ -224,12 +226,16 @@ main {
   margin-top: 17px;
 }
 
+
 /* last button */
 .last-btn{
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
+
+
 
 /* contact section */
 
