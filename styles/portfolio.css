@@ -9,11 +9,12 @@
     url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, bottom left;
+  text-align: left;
 }
 
 nav {
   display: flex;
-  margin: 0px 200px;
+  margin: 0px 150px;
 }
 
 nav ul {
@@ -33,6 +34,7 @@ nav li {
   font-weight: 800;
   font-size: 45px;
   margin-top: 25px;
+  text-align: left;
 }
 
 .btn {
@@ -71,10 +73,11 @@ nav li {
   margin-bottom: 25px;
 }
 .para {
-  font-size: 17px;
+  font-size: 27px;
   color: #757575;
   margin-bottom: 20px;
   margin-right: 20px;
+  
 }
 
 .img {
@@ -97,7 +100,7 @@ main {
 }
 /* about section styles */
 .about {
-  margin-top: 80px;
+  margin-top: 120px;
   background: #fff8f3;
   border-radius: 10px;
   padding: 100px 120px;
@@ -106,7 +109,7 @@ main {
   /* margin-bottom:20px; */
 }
 
-.section-titles {
+.section-title-about{
   margin-bottom: 60px;
   font-weight: 700;
   font-size: 30px;
@@ -132,20 +135,20 @@ main {
   color: #474747;
 }
 .para{
-  text-align: center;
-  padding: 50px;
+  text-align: left;
+  padding-right: 25px;
   font-size: 20px;
   
 }
 
 /* what i do styles */
 
-.section-title {
+.section-titles {
   margin-top:120px;
   text-align: center;
-  margin-bottom:20px;
+  margin-bottom:50px;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 26px;
 }
 .skills-container {
   margin-top: 30px;
@@ -167,15 +170,18 @@ main {
 }
 
 .section-description {
+  margin-bottom:40px;
   color: #757575;
 }
 
 /* resume styles */
-
-.section-title{
+.section-title-resume{
+  text-align: center;
   margin-bottom:80px;
+  margin-top:80px;
   font-size: 35px;
 }
+
 
 .resume-content{
   display: flex;
@@ -238,6 +244,7 @@ main {
 
  .section-title{
   text-align: left;
+  margin-top: 80px;
   width: 500px;
 }
 .contact input, textarea{
